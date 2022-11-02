@@ -1,0 +1,150 @@
+
+<html>
+<style>
+
+.container {
+  position: relative;
+}	
+
+body {
+  background-color: yellow;
+  
+}
+
+header {
+  background-color: MediumSeaGreen;
+  padding: 20px;
+  text-align: right;
+  font-family: arial;
+  font-size: 46px;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 24px;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:yellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: serif;
+}
+
+p {
+  font-family: verdana;
+  font-size: 14px;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 100px;
+  float: left;
+  width: 100px;
+}
+
+div.gallery {
+  border: 1px solid lightgray;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+div.gallery:hover {
+	border:1px solid black;
+}
+
+div.desc {
+  padding: 25px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  font-color: black;
+  font-size: 10px;
+  
+  
+}
+
+</style>
+</html>
