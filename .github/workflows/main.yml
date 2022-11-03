@@ -18,7 +18,7 @@ jobs:
 
     - uses: actions/checkout@main
 
-    - name: Deploy HTML Files to Azure Web App
+    - name: Deploy to Azure Web App
 
       uses: azure/webapps-deploy@v1
 
