@@ -18,7 +18,7 @@ jobs:
 
     - uses: actions/checkout@main
 
-    - name: Deploy HTML Files to Appservice-CMST 386
+    - name: Deploy HTML Files to Azure Web App
 
       uses: azure/webapps-deploy@v1
 
