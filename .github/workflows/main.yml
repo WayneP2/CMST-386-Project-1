@@ -28,4 +28,4 @@ jobs:
 
         slot-name: 'production'
 
-        publish-profile: {{ $CMST386-wperryii }}
+        publish-profile: {{ $secrets.AppServiceCMST386 }}
